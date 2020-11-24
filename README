@@ -18,10 +18,7 @@ v1 # next value of free parameter
 c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v1
 ...
 ...
-c2 # colour corresponding to subplot in Figure (e.g u-g, g-r,...) 
-v0 # value of free parameter (costheta/M_ej/Phi) indicated in colourbar of Figure 
-c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v0
-v1 # next value of free parameter
-c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v1
-...
-...
+
+The free parameter in fig6.txt is costheta in the range [0,1] in steps of 0.1. Phi=30 deg and M_ej=0.05 M_sun.
+The free parameter in fig7.txt is M_ej in the range [0.01,0.1] in steps of 0.01 M_sun. Phi=30 deg and costheta=1.
+The free parameter in fig8.txt is Phi in the range [15,75] in steps of 15 deg. Costheta=1 and M_ej=0.05M_odot.
