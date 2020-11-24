@@ -1,0 +1,16 @@
+# kilonova_colours
+
+Data from the colour-time plots (Figures 6,7,8) from the A&A publication (edition, volume, number etc.)
+
+Each text file (.txt) is laid out as follows:
+
+colour0=u-g
+costheta0=0
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d)
+costheta1=0.1
+...
+...
+colour1=g-r
+costheta0=0.1
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d)
+costheta1=
