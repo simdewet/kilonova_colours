@@ -4,13 +4,24 @@ Data from the colour-time plots (Figures 6,7,8) from the A&A publication (editio
 
 Each text file (.txt) is laid out as follows:
 
-colour0=u-g
-costheta0=0
-c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d)
-costheta1=0.1
+c0 # colour corresponding to subplot in Figure (e.g u-g, g-r,...) 
+v0 # value of free parameter (costheta/M_ej/Phi) indicated in colourbar of Figure 
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v0
+v1 # next value of free parameter
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v1
 ...
 ...
-colour1=g-r
-costheta0=0.1
-c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d)
-costheta1=
+c1 # colour corresponding to subplot in Figure (e.g u-g, g-r,...) 
+v0 # value of free parameter (costheta/M_ej/Phi) indicated in colourbar of Figure 
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v0
+v1 # next value of free parameter
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v1
+...
+...
+c2 # colour corresponding to subplot in Figure (e.g u-g, g-r,...) 
+v0 # value of free parameter (costheta/M_ej/Phi) indicated in colourbar of Figure 
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v0
+v1 # next value of free parameter
+c(t0=0.5d) c(t1=1d) c(t2=1.5d) ... c(t29=15d) # u-g colour curve for costheta/M_ej/Phi = v1
+...
+...
